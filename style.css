@@ -1,0 +1,521 @@
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(218, 28%, 13%);
+  min-height: 100vh;
+}
+
+.header-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 100%;
+  height: 100px;
+}
+
+.nav-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 52px;
+}
+
+.nav-page img {
+  height: 52px;
+}
+
+.nav-page ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 300px;
+  padding: 0;
+}
+
+.nav-page ul li a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-page ul li a:hover {
+  border-bottom: 1px solid white;
+  font-weight: 700;
+}
+
+.services-module {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin-top: 120px;
+}
+
+.svcModules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+}
+
+.svcModules img {
+  width: 100%;
+}
+
+.svcModules h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.3;
+  color: hsl(0, 0%, 100%);
+  margin: 30px 0;
+}
+
+.svcModules p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.3;
+  color: hsl(0, 0%, 100%);
+  margin: 0 100px 50px 100px;
+}
+
+.svcModules button {
+  display: flex;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%) ,hsl(198, 60%, 50%));
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: hsl(0, 0%, 100%);
+  border-style: none;
+  border-radius: 80px;
+  padding: 20px 110px;
+  cursor: pointer;
+}
+
+.svcModules button:hover {
+  background: hsl(198, 60%, 80%);
+}
+
+.services-characteristics {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 120px;
+  flex-wrap: wrap;
+  gap: 100px 100px;
+}
+
+.svcCharacteristics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
+
+.svcCharacteristics span {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+  margin-top: 30px;
+}
+
+.svcCharacteristics p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.services-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 70px;
+}
+
+.services-description img {
+  display: flex;
+  width: 48%;
+}
+
+.services-description div {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.services-description div h3 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.services-description div p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.services-description div span a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: hsl(176, 68%, 64%);
+  text-decoration: none;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.services-description div span a:hover {
+  color: hsl(0, 0%, 100%);
+  border-bottom: 1px solid hsl(0, 0%, 100%);
+}
+
+.services-reviews {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 120px;
+  gap: 40px 40px;
+  padding-bottom: 190px;
+}
+
+.services-reviews-contenedor {
+  box-sizing: border-box;
+  width: 470px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px -5px hsl(216, 53%, 9%);
+  margin-bottom: 200px;
+}
+
+.services-reviews-contenedor p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.services-reviews-contenedor div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.services-reviews-contenedor div img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.services-reviews-contenedor div p {
+  position: absolute;
+  margin: 0;
+  top: 2px;
+  left: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.services-reviews-contenedor div span {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.fylo-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 90px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: hsl(216, 53%, 9%);
+  padding: 12% 60px 80px 60px;
+}
+
+.fylo-get-service {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 400px;
+  background-color: hsl(217, 28%, 15%);
+  position: absolute;
+  bottom: -120px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px hsl(218, 28%, 13%);
+}
+
+.fylo-get-service span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.fylo-get-service p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.fylo-get-service-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.fylo-get-service-button input {
+  width: 400px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.fylo-get-service-button button {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%) ,hsl(198, 60%, 50%));
+  border: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+.fylo-get-service-button button:hover {
+  background: hsl(198, 60%, 80%);
+}
+
+.fylo-info1 {
+  width: 400px;
+}
+
+.fylo-info1 p {
+  display: flex;
+}
+
+.fylo-info1 p img {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.fylo-info1 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+}
+
+.fylo-info2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+.fylo-info2 img {
+  margin-right: 20px;
+}
+
+.fylo-info2 li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+}
+
+.fylo-info3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+.fylo-info3 li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.fylo-info3 li a:hover {
+  font-weight: 700;
+}
+
+.fylo-info4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+.fylo-info4 li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.fylo-info4 li a:hover {
+  font-weight: 700;
+}
+
+.fylo-info5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+@media(max-width: 700px) {
+  .nav-page img {
+    height: 30px;
+  }
+  .nav-page ul {
+    width: 180px;
+  }
+  .nav-page ul li {
+    font-size: 1rem;
+  }
+  .services-module {
+    margin-top: 80px;
+  }
+  .svcModules {
+    width: 100%;
+  }
+  .svcModules h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .svcModules p {
+    font-size: .93rem;
+    line-height: 1.7;
+    margin: 0 0 40px 0;
+  }
+  .svcModules button {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 70px;
+  }
+  .services-characteristics {
+    margin-top: 100px;
+  }
+  .services-characteristics span {
+    font-size: 1.1rem;
+  }
+  .services-characteristics p {
+    font-size: .85rem;
+  }
+  .services-description {
+    flex-direction: column;
+  }
+  .services-description img {
+    width: 100%;
+  }
+  .services-description div {
+    width: 100%;
+  }
+  .services-description div h3 {
+    font-size: 1rem;
+  }
+  .services-description div h3 br {
+    display: none;
+  }
+  .services-description div p {
+    font-size: .8rem;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  .services-description div span a {
+    font-size: .8rem;
+  }
+  .services-reviews-contenedor {
+    padding: 20px;
+  }
+  .services-reviews-contenedor p {
+    line-height: 1.8;
+    font-size: .7rem;
+  }
+  .services-reviews-contenedor div {
+    margin-top: 20px;
+  }
+  .services-reviews-contenedor div p {
+    font-size: .8rem;
+  }
+  .services-reviews-contenedor div span {
+    font-size: .8rem;
+  }
+  .fylo-footer {
+    justify-content: flex-start;
+    padding: 200px 30px;
+  }
+  .fylo-get-service {
+    width: 85%;
+    min-width: 100px;
+    padding: 30px;
+  }
+  .fylo-get-service span {
+    font-size: 1.2rem;
+  }
+  .fylo-get-service p {
+    font-size: .8rem;
+  }
+  .fylo-get-service-button {
+    gap: 15px;
+  }
+  .fylo-get-service-button input {
+    font-size: .7rem;
+    padding: 15px 40px;
+  }
+  .fylo-get-service-button button {
+    width: 100%;
+    padding: 15px 40px;
+    font-size: .7rem;
+  }
+}
